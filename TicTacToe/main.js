@@ -29,9 +29,8 @@ function resetBoard(board) {
         cell.setAttribute("name", "unplayed")
         cell.innerHTML = ""
     }
-    counter = 1
-    startGame(currentPlayer, otherPlayer)
-    
+    counter = 1  
+    gameActive = true  
 }
 
 function checkWin(board, form, player) {
