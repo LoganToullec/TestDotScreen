@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.game-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.game-box > div {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.player-info {
+    display: flex;
+}
